@@ -5,7 +5,7 @@ name: CI
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: '*/5 * * * *'
+  - cron: '*/600 * * * *'
   workflow_dispatch:
 
 jobs:
